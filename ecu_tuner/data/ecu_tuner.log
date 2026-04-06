@@ -1,0 +1,123 @@
+2026-03-27 18:12:51,145 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-03-27 18:12:51,376 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\matplotlib\mpl-data
+2026-03-27 18:12:51,388 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-03-27 18:12:51,389 [DEBUG] matplotlib - interactive is False
+2026-03-27 18:12:51,389 [DEBUG] matplotlib - platform is win32
+2026-03-27 18:12:51,422 [INFO] ECUTuner.Connection - ConnectionModule listo.
+2026-03-27 18:12:51,422 [INFO] ECUTuner.Backup - BackupModule listo.
+2026-03-27 18:12:51,422 [INFO] ECUTuner.Tuning - TuningModule listo.
+2026-03-27 18:12:51,422 [INFO] ECUTuner.Flash - FlashModule listo.
+2026-03-27 18:12:51,422 [INFO] ECUTuner.AppController - AppController inicializado. Estado: DISCONNECTED
+2026-03-27 18:12:51,904 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-03-27 18:12:52,114 [INFO] ECUTuner.MainWindow - MainWindow lista.
+2026-03-27 18:12:52,114 [INFO] ECUTuner.Main - Ventana principal inicializada. Arrancando event loop...
+2026-03-27 18:13:36,409 [INFO] ECUTuner.Main - Aplicación cerrada correctamente.
+2026-03-27 18:26:02,352 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-03-27 18:26:02,578 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\matplotlib\mpl-data
+2026-03-27 18:26:02,589 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-03-27 18:26:02,591 [DEBUG] matplotlib - interactive is False
+2026-03-27 18:26:02,591 [DEBUG] matplotlib - platform is win32
+2026-03-27 18:30:53,197 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-03-27 18:30:54,100 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\Downloads\ecu_tuner_didactico\ecu_tuner\venv\Lib\site-packages\matplotlib\mpl-data
+2026-03-27 18:30:54,122 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-03-27 18:30:54,123 [DEBUG] matplotlib - interactive is False
+2026-03-27 18:30:54,124 [DEBUG] matplotlib - platform is win32
+2026-03-27 18:30:54,137 [INFO] ECUTuner.Main - OK: Todas las dependencias verificadas.
+2026-03-27 18:30:54,164 [INFO] ECUTuner.Connection - ConnectionModule listo.
+2026-03-27 18:30:54,164 [INFO] ECUTuner.Backup - BackupModule listo.
+2026-03-27 18:30:54,164 [INFO] ECUTuner.Tuning - TuningModule listo.
+2026-03-27 18:30:54,164 [INFO] ECUTuner.Flash - FlashModule listo.
+2026-03-27 18:30:54,164 [INFO] ECUTuner.AppController - AppController inicializado. Estado: DISCONNECTED
+2026-03-27 18:30:54,672 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-03-27 18:30:54,902 [INFO] ECUTuner.MainWindow - MainWindow lista.
+2026-03-27 18:30:54,902 [INFO] ECUTuner.Main - Ventana principal inicializada. Arrancando event loop...
+2026-03-27 18:32:38,636 [INFO] ECUTuner.Main - Aplicación cerrada correctamente.
+2026-04-06 15:48:36,411 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-04-06 15:48:37,480 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\Downloads\ecu_tuner_didactico\ecu_tuner\venv\Lib\site-packages\matplotlib\mpl-data
+2026-04-06 15:48:37,506 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-04-06 15:48:37,507 [DEBUG] matplotlib - interactive is False
+2026-04-06 15:48:37,507 [DEBUG] matplotlib - platform is win32
+2026-04-06 15:48:37,523 [INFO] ECUTuner.Main - OK: Todas las dependencias verificadas.
+2026-04-06 15:48:37,550 [INFO] ECUTuner.Connection - ConnectionModule listo.
+2026-04-06 15:48:37,551 [INFO] ECUTuner.Backup - BackupModule listo.
+2026-04-06 15:48:37,551 [INFO] ECUTuner.Tuning - TuningModule listo.
+2026-04-06 15:48:37,551 [INFO] ECUTuner.Flash - FlashModule listo.
+2026-04-06 15:48:37,551 [INFO] ECUTuner.AppController - AppController inicializado. Estado: DISCONNECTED
+2026-04-06 15:48:38,474 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 15:48:38,692 [INFO] ECUTuner.MainWindow - MainWindow lista.
+2026-04-06 15:48:38,692 [INFO] ECUTuner.Main - Ventana principal inicializada. Arrancando event loop...
+2026-04-06 15:48:50,823 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 15:49:07,319 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 15:49:08,332 [INFO] ECUTuner.Connection - Iniciando conexión: puerto=DEMO:COM3 (ELM327 v2.1 - VW Polo), baud=38400, protocolo=0
+2026-04-06 15:49:08,368 [DEBUG] ECUTuner.Connection - [DEMO] Abriendo puerto serial: DEMO:COM3 (ELM327 v2.1 - VW Polo) @ 38400 baud
+2026-04-06 15:49:09,004 [WARNING] ECUTuner.AppController - Intento de conexión en estado inválido.
+2026-04-06 15:49:09,327 [WARNING] ECUTuner.AppController - Intento de conexión en estado inválido.
+2026-04-06 15:49:12,002 [DEBUG] ECUTuner.Connection - [DEMO] Identificando ECU VW Polo via UDS SID 0x22...
+2026-04-06 15:49:12,005 [DEBUG] ECUTuner.Connection - [DEMO] Leyendo PIDs del VW Polo...
+2026-04-06 15:49:12,012 [INFO] ECUTuner.Connection - Hilo de live data arrancado.
+2026-04-06 15:49:31,902 [INFO] ECUTuner.Connection - Conexión cerrada.
+2026-04-06 15:49:33,318 [INFO] ECUTuner.Connection - Conexión cerrada.
+2026-04-06 15:49:52,591 [INFO] ECUTuner.Connection - Iniciando conexión: puerto=DEMO:COM3 (ELM327 v2.1 - VW Polo), baud=500000, protocolo=0
+2026-04-06 15:49:52,595 [DEBUG] ECUTuner.Connection - [DEMO] Abriendo puerto serial: DEMO:COM3 (ELM327 v2.1 - VW Polo) @ 500000 baud
+2026-04-06 15:49:56,208 [DEBUG] ECUTuner.Connection - [DEMO] Identificando ECU VW Polo via UDS SID 0x22...
+2026-04-06 15:49:56,211 [DEBUG] ECUTuner.Connection - [DEMO] Leyendo PIDs del VW Polo...
+2026-04-06 15:49:56,218 [INFO] ECUTuner.Connection - Hilo de live data arrancado.
+2026-04-06 15:50:03,766 [INFO] ECUTuner.Main - Aplicación cerrada correctamente.
+2026-04-06 17:51:14,203 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-04-06 17:51:15,093 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\Downloads\ecu_tuner_didactico\ecu_tuner\venv\Lib\site-packages\matplotlib\mpl-data
+2026-04-06 17:51:15,114 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-04-06 17:51:15,116 [DEBUG] matplotlib - interactive is False
+2026-04-06 17:51:15,116 [DEBUG] matplotlib - platform is win32
+2026-04-06 17:51:15,133 [INFO] ECUTuner.Main - OK: Todas las dependencias verificadas.
+2026-04-06 17:51:15,203 [INFO] ECUTuner.Connection - ConnectionModule listo.
+2026-04-06 17:51:15,203 [INFO] ECUTuner.Backup - BackupModule listo.
+2026-04-06 17:51:15,203 [INFO] ECUTuner.Tuning - TuningModule listo.
+2026-04-06 17:51:15,203 [INFO] ECUTuner.Flash - FlashModule listo.
+2026-04-06 17:51:15,204 [INFO] ECUTuner.AppController - AppController inicializado. Estado: DISCONNECTED
+2026-04-06 17:51:16,079 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 17:51:16,296 [INFO] ECUTuner.MainWindow - MainWindow lista.
+2026-04-06 17:51:16,296 [INFO] ECUTuner.Main - Ventana principal inicializada. Arrancando event loop...
+2026-04-06 17:57:01,053 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 17:57:07,742 [INFO] ECUTuner.Main - Aplicación cerrada correctamente.
+2026-04-06 18:00:38,911 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-04-06 18:00:39,175 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\Downloads\ecu_tuner_didactico\ecu_tuner\venv\Lib\site-packages\matplotlib\mpl-data
+2026-04-06 18:00:39,187 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-04-06 18:00:39,189 [DEBUG] matplotlib - interactive is False
+2026-04-06 18:00:39,189 [DEBUG] matplotlib - platform is win32
+2026-04-06 18:00:39,205 [INFO] ECUTuner.Main - OK: Todas las dependencias verificadas.
+2026-04-06 18:00:39,234 [INFO] ECUTuner.Connection - ConnectionModule listo.
+2026-04-06 18:00:39,234 [INFO] ECUTuner.Backup - BackupModule listo.
+2026-04-06 18:00:39,234 [INFO] ECUTuner.Tuning - TuningModule listo.
+2026-04-06 18:00:39,234 [INFO] ECUTuner.Flash - FlashModule listo.
+2026-04-06 18:00:39,234 [INFO] ECUTuner.Diagnostic - DiagnosticModule listo.
+2026-04-06 18:00:39,234 [INFO] ECUTuner.AppController - AppController inicializado. Estado: DISCONNECTED
+2026-04-06 18:00:39,784 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 18:00:48,663 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-04-06 18:00:48,923 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\Downloads\ecu_tuner_didactico\ecu_tuner\venv\Lib\site-packages\matplotlib\mpl-data
+2026-04-06 18:00:48,934 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-04-06 18:00:48,935 [DEBUG] matplotlib - interactive is False
+2026-04-06 18:00:48,935 [DEBUG] matplotlib - platform is win32
+2026-04-06 18:00:48,951 [INFO] ECUTuner.Main - OK: Todas las dependencias verificadas.
+2026-04-06 18:00:48,968 [INFO] ECUTuner.Connection - ConnectionModule listo.
+2026-04-06 18:00:48,969 [INFO] ECUTuner.Backup - BackupModule listo.
+2026-04-06 18:00:48,969 [INFO] ECUTuner.Tuning - TuningModule listo.
+2026-04-06 18:00:48,969 [INFO] ECUTuner.Flash - FlashModule listo.
+2026-04-06 18:00:48,969 [INFO] ECUTuner.Diagnostic - DiagnosticModule listo.
+2026-04-06 18:00:48,969 [INFO] ECUTuner.AppController - AppController inicializado. Estado: DISCONNECTED
+2026-04-06 18:00:49,493 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 18:04:53,392 [INFO] ECUTuner.Main -   ECU Tuner v1.0 — Iniciando sistema  
+2026-04-06 18:04:53,654 [DEBUG] matplotlib - matplotlib data path: C:\Users\alumnadoT\Downloads\ecu_tuner_didactico\ecu_tuner\venv\Lib\site-packages\matplotlib\mpl-data
+2026-04-06 18:04:53,666 [DEBUG] matplotlib - CONFIGDIR=C:\Users\alumnadoT\.matplotlib
+2026-04-06 18:04:53,667 [DEBUG] matplotlib - interactive is False
+2026-04-06 18:04:53,667 [DEBUG] matplotlib - platform is win32
+2026-04-06 18:04:53,683 [INFO] ECUTuner.Main - OK: Todas las dependencias verificadas.
+2026-04-06 18:04:53,704 [INFO] ECUTuner.Connection - ConnectionModule listo.
+2026-04-06 18:04:53,705 [INFO] ECUTuner.Backup - BackupModule listo.
+2026-04-06 18:04:53,705 [INFO] ECUTuner.Tuning - TuningModule listo.
+2026-04-06 18:04:53,705 [INFO] ECUTuner.Flash - FlashModule listo.
+2026-04-06 18:04:53,705 [INFO] ECUTuner.Diagnostic - DiagnosticModule listo.
+2026-04-06 18:04:53,705 [INFO] ECUTuner.AppController - AppController inicializado. Estado: DISCONNECTED
+2026-04-06 18:04:54,240 [INFO] ECUTuner.Connection - Puertos detectados (demo): ['DEMO:COM3 (ELM327 v2.1 - VW Polo)', 'DEMO:COM5 (J2534 PassThru - VAG)', 'DEMO:COM7 (Bluetooth OBD - VW']
+2026-04-06 18:04:54,462 [INFO] ECUTuner.MainWindow - MainWindow lista.
+2026-04-06 18:04:54,462 [INFO] ECUTuner.Main - Ventana principal inicializada. Arrancando event loop...
+2026-04-06 18:05:09,182 [INFO] ECUTuner.Main - Aplicación cerrada correctamente.

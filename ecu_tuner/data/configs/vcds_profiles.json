@@ -1,0 +1,22 @@
+{
+  "profiles": [
+    {
+      "name": "Polo Safe Idle (Demo)",
+      "description": "Ajustes simulados para un perfil seguro de idle.",
+      "changes": [
+        {"map_id": "injection_time", "row": 0, "col": 0, "value": 3.5},
+        {"map_id": "ignition_advance", "row": 4, "col": 8, "value": 28.0},
+        {"map_id": "boost_pressure",  "row": 0, "col": 0, "value": 1200.0}
+      ]
+    },
+    {
+      "name": "Polo Performance (Demo)",
+      "description": "Perfil orientado a rendimiento simulado.",
+      "changes": [
+        {"map_id": "injection_time", "row": 15, "col": 15, "value": 15.0},
+        {"map_id": "ignition_advance", "row": 5, "col": 12, "value": 32.0},
+        {"map_id": "boost_pressure",  "row": 3, "col": 10, "value": 1800.0}
+      ]
+    }
+  ]
+}

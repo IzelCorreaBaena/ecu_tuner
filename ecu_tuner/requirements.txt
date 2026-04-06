@@ -1,0 +1,8 @@
+# ECU Tuner - Dependencias
+# Instalar con: pip install -r requirements.txt
+
+customtkinter>=5.2.0    # GUI moderna (tema dark)
+pyserial>=3.5           # Comunicación serial OBD-II (ELM327)
+numpy>=1.24.0           # Manipulación de arrays de mapas
+matplotlib>=3.7.0       # Visualización 3D de mapas (opcional)
+python-can>=4.3.0       # CAN bus para adaptadores J2534 (opcional)
