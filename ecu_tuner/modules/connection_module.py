@@ -109,30 +109,34 @@ class ConnectionModule:
         """
         Escanea el sistema en busca de puertos seriales/USB disponibles.
 
-        En hardware real: usa serial.tools.list_ports.comports()
-        En modo demo: devuelve puertos simulados.
+        Primero intenta detección real via pyserial.
+        Si no hay puertos reales, añade entradas DEMO para pruebas sin hardware.
 
         Returns:
             Lista de strings con nombres de puerto (ej: ["COM3", "/dev/ttyUSB0"])
         """
+        real_ports = []
         try:
-            # ── PRODUCCIÓN: descomentar estas líneas ──
-            # import serial.tools.list_ports
-            # ports = serial.tools.list_ports.comports()
-            # return [p.device for p in ports if p.description]
-
-            # ── DEMO: puertos simulados para VW Polo ──
-            demo_ports = [
-                "DEMO:COM3 (ELM327 v2.1 - VW Polo)",
-                "DEMO:COM5 (J2534 PassThru - VAG)",
-                "DEMO:COM7 (Bluetooth OBD - VW",
+            import serial.tools.list_ports
+            comports = serial.tools.list_ports.comports()
+            real_ports = [
+                f"{p.device} ({p.description})" if p.description and p.description != "n/a"
+                else p.device
+                for p in comports
             ]
-            logger.info(f"Puertos detectados (demo): {demo_ports}")
-            return demo_ports
-
+            logger.info(f"Puertos reales detectados: {real_ports}")
         except Exception as e:
-            logger.error(f"Error escaneando puertos: {e}")
-            return []
+            logger.debug(f"No se pudo usar serial.tools.list_ports: {e}")
+
+        # ── Añadir puertos DEMO siempre disponibles para pruebas sin hardware ──
+        demo_ports = [
+            "DEMO:ELM327-USB (VW Polo TSI, simulado)",
+            "DEMO:ELM327-BT  (J2534 PassThru, simulado)",
+        ]
+
+        all_ports = real_ports + demo_ports
+        logger.info(f"Total puertos disponibles: {all_ports}")
+        return all_ports
 
     # ─── Conexión principal ─────────────────────────────────────────────
 

@@ -19,11 +19,11 @@ from enum import Enum, auto
 
 from modules.connection_module import ConnectionModule
 from modules.diagnostic_module import DiagnosticModule
-from modules.diagnostic_module import DiagnosticModule
 from modules.vcds_config import load_profiles, apply_profile
 from modules.backup_module import BackupModule
 from modules.tuning_module import TuningModule
 from modules.flash_module import FlashModule
+from modules.hidden_settings_module import HiddenSettingsModule
 
 logger = logging.getLogger("ECUTuner.AppController")
 
@@ -76,12 +76,12 @@ class AppController:
         self._vcds_profiles: list[dict] = []
 
         # ── Instanciar módulos pasando el contexto compartido ──
-        self.connection = ConnectionModule(ctx=self.ctx, notify=self._notify)
-        self.backup     = BackupModule(ctx=self.ctx, notify=self._notify)
-        self.tuning     = TuningModule(ctx=self.ctx, notify=self._notify)
-        self.flash      = FlashModule(ctx=self.ctx, notify=self._notify)
-        # Diagnóstico (Módulo 1) - simulación
-        self.diagnostic = DiagnosticModule(ctx=self.ctx, notify=self._notify)
+        self.connection      = ConnectionModule(ctx=self.ctx, notify=self._notify)
+        self.backup          = BackupModule(ctx=self.ctx, notify=self._notify)
+        self.tuning          = TuningModule(ctx=self.ctx, notify=self._notify)
+        self.flash           = FlashModule(ctx=self.ctx, notify=self._notify)
+        self.diagnostic      = DiagnosticModule(ctx=self.ctx, notify=self._notify)
+        self.hidden_settings = HiddenSettingsModule(ctx=self.ctx, notify=self._notify)
 
         logger.info("AppController inicializado. Estado: DISCONNECTED")
 

@@ -27,6 +27,7 @@ from ui.panels.connection_panel import ConnectionPanel
 from ui.panels.backup_panel import BackupPanel
 from ui.panels.tuning_panel import TuningPanel
 from ui.panels.flash_panel import FlashPanel
+from ui.panels.logs_panel import LogsPanel
 import logging
 
 logger = logging.getLogger("ECUTuner.MainWindow")
@@ -139,12 +140,13 @@ class MainWindow(ctk.CTk):
 
         self._nav_buttons = {}
         nav_items = [
-            ("connection", "🔌 Conexión",   "Detectar puerto y conectar"),
-            ("backup",     "💾 Backup",      "Volcar memoria flash ECU"),
-            ("tuning",     "⚡ Tuning",      "Editar mapas del motor"),
-            ("flash",      "🔥 Flashear",    "Escribir a la ECU"),
-            ("diagnostic", "🧭 Diagnóstico", "Leer/limpiar DTCs"),
-            ("vcds",       "🧩 VCDS",        "Config VW Polo (Perfil)"),
+            ("connection", "🔌 Conexion",    "Detectar puerto y conectar"),
+            ("backup",     "💾 Backup",       "Volcar memoria flash ECU"),
+            ("tuning",     "⚡ Tuning",       "Editar mapas del motor"),
+            ("flash",      "🔥 Flashear",     "Escribir a la ECU"),
+            ("diagnostic", "🩺 Diagnostico",  "Leer/limpiar DTCs"),
+            ("vcds",       "🔧 Aj. Ocultos",  "Coding y Adaptacion VCDS"),
+            ("logs",       "📋 Logs",         "Monitor de eventos"),
         ]
 
         for panel_id, label, tooltip in nav_items:
@@ -177,8 +179,8 @@ class MainWindow(ctk.CTk):
             "tuning":     TuningPanel(self._content_area, self.controller, COLORS),
             "flash":      FlashPanel(self._content_area, self.controller, COLORS),
             "diagnostic": DiagnosticPanel(self._content_area, self.controller, COLORS),
-            # Panel de perfiles VCDS (professional) — VW
             "vcds":       VCDSPanel(self._content_area, self.controller, COLORS),
+            "logs":       LogsPanel(self._content_area, self.controller, COLORS),
         }
 
         for panel in self._panels.values():
