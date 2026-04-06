@@ -1,22 +1,122 @@
 {
+  "_comment": "Perfiles de mapas de motor para VW Polo TSI (demo/didactico).",
   "profiles": [
+
     {
-      "name": "Polo Safe Idle (Demo)",
-      "description": "Ajustes simulados para un perfil seguro de idle.",
+      "name": "Stock — Valores de Fabrica",
+      "description": "Restaura todos los mapas a los valores de fabrica del Polo 1.0 TSI (95 CV). Usar como referencia o para revertir cambios.",
+      "target_ecu": "Bosch ME17.5.22",
       "changes": [
-        {"map_id": "injection_time", "row": 0, "col": 0, "value": 3.5},
-        {"map_id": "ignition_advance", "row": 4, "col": 8, "value": 28.0},
-        {"map_id": "boost_pressure",  "row": 0, "col": 0, "value": 1200.0}
+        {"map_id": "injection_time",   "row": 0,  "col": 0,  "value": 2.8},
+        {"map_id": "injection_time",   "row": 8,  "col": 8,  "value": 8.2},
+        {"map_id": "injection_time",   "row": 15, "col": 15, "value": 12.5},
+        {"map_id": "ignition_advance", "row": 0,  "col": 0,  "value": 5.0},
+        {"map_id": "ignition_advance", "row": 4,  "col": 8,  "value": 24.0},
+        {"map_id": "ignition_advance", "row": 8,  "col": 12, "value": 28.0},
+        {"map_id": "ignition_advance", "row": 15, "col": 15, "value": 22.0},
+        {"map_id": "boost_pressure",   "row": 0,  "col": 0,  "value": 1013.0},
+        {"map_id": "boost_pressure",   "row": 4,  "col": 8,  "value": 1420.0},
+        {"map_id": "boost_pressure",   "row": 8,  "col": 12, "value": 1550.0},
+        {"map_id": "boost_pressure",   "row": 15, "col": 15, "value": 1480.0},
+        {"map_id": "torque_limit",     "row": 0,  "col": 0,  "value": 175.0},
+        {"map_id": "torque_limit",     "row": 8,  "col": 8,  "value": 200.0},
+        {"map_id": "torque_limit",     "row": 15, "col": 15, "value": 175.0}
       ]
     },
+
     {
-      "name": "Polo Performance (Demo)",
-      "description": "Perfil orientado a rendimiento simulado.",
+      "name": "Eco — Ahorro de Combustible",
+      "description": "Perfil orientado al maximo ahorro de combustible. Reduccion de inyeccion y avance en zonas de crucero. Ideal para conduccion urbana tranquila.",
+      "target_ecu": "Bosch ME17.5.22",
       "changes": [
-        {"map_id": "injection_time", "row": 15, "col": 15, "value": 15.0},
-        {"map_id": "ignition_advance", "row": 5, "col": 12, "value": 32.0},
-        {"map_id": "boost_pressure",  "row": 3, "col": 10, "value": 1800.0}
+        {"map_id": "injection_time",   "row": 0,  "col": 0,  "value": 2.5},
+        {"map_id": "injection_time",   "row": 4,  "col": 4,  "value": 5.5},
+        {"map_id": "injection_time",   "row": 8,  "col": 8,  "value": 7.2},
+        {"map_id": "ignition_advance", "row": 0,  "col": 0,  "value": 6.0},
+        {"map_id": "ignition_advance", "row": 4,  "col": 8,  "value": 26.0},
+        {"map_id": "ignition_advance", "row": 8,  "col": 12, "value": 30.0},
+        {"map_id": "boost_pressure",   "row": 4,  "col": 4,  "value": 1150.0},
+        {"map_id": "boost_pressure",   "row": 8,  "col": 8,  "value": 1300.0},
+        {"map_id": "torque_limit",     "row": 4,  "col": 4,  "value": 160.0},
+        {"map_id": "torque_limit",     "row": 8,  "col": 8,  "value": 180.0}
+      ]
+    },
+
+    {
+      "name": "Stage 1 — +15 CV (sin hardware extra)",
+      "description": "Optimizacion Stage 1 para Polo 1.0 TSI. Incremento moderado de presion de turbo, avance de encendido y duracion de inyeccion. No requiere modificaciones hardware. Estimacion: ~110 CV / 210 Nm.",
+      "target_ecu": "Bosch ME17.5.22",
+      "changes": [
+        {"map_id": "boost_pressure",   "row": 3,  "col": 6,  "value": 1580.0},
+        {"map_id": "boost_pressure",   "row": 4,  "col": 8,  "value": 1680.0},
+        {"map_id": "boost_pressure",   "row": 6,  "col": 10, "value": 1720.0},
+        {"map_id": "boost_pressure",   "row": 8,  "col": 12, "value": 1750.0},
+        {"map_id": "boost_pressure",   "row": 10, "col": 12, "value": 1700.0},
+        {"map_id": "injection_time",   "row": 6,  "col": 10, "value": 10.5},
+        {"map_id": "injection_time",   "row": 8,  "col": 12, "value": 12.0},
+        {"map_id": "injection_time",   "row": 10, "col": 14, "value": 13.5},
+        {"map_id": "ignition_advance", "row": 4,  "col": 8,  "value": 26.0},
+        {"map_id": "ignition_advance", "row": 6,  "col": 10, "value": 27.5},
+        {"map_id": "ignition_advance", "row": 8,  "col": 12, "value": 28.5},
+        {"map_id": "torque_limit",     "row": 4,  "col": 8,  "value": 210.0},
+        {"map_id": "torque_limit",     "row": 6,  "col": 10, "value": 215.0},
+        {"map_id": "torque_limit",     "row": 8,  "col": 12, "value": 210.0}
+      ]
+    },
+
+    {
+      "name": "Stage 1+ — +25 CV (intercooler mejorado)",
+      "description": "Stage 1+ para Polo 1.0 TSI con intercooler sport instalado. Mayor presion de turbo posible gracias a mejor refrigeracion del aire de admision. Estimacion: ~120 CV / 225 Nm.",
+      "target_ecu": "Bosch ME17.5.22",
+      "changes": [
+        {"map_id": "boost_pressure",   "row": 4,  "col": 8,  "value": 1820.0},
+        {"map_id": "boost_pressure",   "row": 6,  "col": 10, "value": 1900.0},
+        {"map_id": "boost_pressure",   "row": 8,  "col": 12, "value": 1950.0},
+        {"map_id": "boost_pressure",   "row": 10, "col": 12, "value": 1880.0},
+        {"map_id": "boost_pressure",   "row": 12, "col": 12, "value": 1780.0},
+        {"map_id": "injection_time",   "row": 6,  "col": 10, "value": 11.5},
+        {"map_id": "injection_time",   "row": 8,  "col": 12, "value": 13.2},
+        {"map_id": "injection_time",   "row": 10, "col": 14, "value": 14.8},
+        {"map_id": "injection_time",   "row": 12, "col": 14, "value": 15.5},
+        {"map_id": "ignition_advance", "row": 4,  "col": 8,  "value": 24.5},
+        {"map_id": "ignition_advance", "row": 6,  "col": 10, "value": 26.0},
+        {"map_id": "ignition_advance", "row": 8,  "col": 12, "value": 27.0},
+        {"map_id": "ignition_advance", "row": 10, "col": 12, "value": 25.5},
+        {"map_id": "torque_limit",     "row": 4,  "col": 8,  "value": 225.0},
+        {"map_id": "torque_limit",     "row": 6,  "col": 10, "value": 230.0},
+        {"map_id": "torque_limit",     "row": 8,  "col": 12, "value": 225.0}
+      ]
+    },
+
+    {
+      "name": "Polo Safe Idle — Ralenti Optimizado",
+      "description": "Ajuste fino del ralenti para reducir vibraciones y mejorar el arranque en frio. Ajusta la inyeccion en zonas de baja carga.",
+      "target_ecu": "Bosch ME17.5.22",
+      "changes": [
+        {"map_id": "injection_time",   "row": 0, "col": 0, "value": 3.0},
+        {"map_id": "injection_time",   "row": 0, "col": 1, "value": 3.2},
+        {"map_id": "injection_time",   "row": 1, "col": 0, "value": 3.3},
+        {"map_id": "ignition_advance", "row": 0, "col": 0, "value": 8.0},
+        {"map_id": "ignition_advance", "row": 0, "col": 1, "value": 10.0},
+        {"map_id": "boost_pressure",   "row": 0, "col": 0, "value": 1050.0}
+      ]
+    },
+
+    {
+      "name": "Winter — Conduccion en Frio",
+      "description": "Perfil para conduccion en condiciones de frio extremo (<0°C). Enriquece la mezcla en arranque en frio y reduce el avance para evitar detonacion con gasolina fria.",
+      "target_ecu": "Bosch ME17.5.22",
+      "changes": [
+        {"map_id": "injection_time",   "row": 0,  "col": 0,  "value": 3.8},
+        {"map_id": "injection_time",   "row": 1,  "col": 1,  "value": 4.2},
+        {"map_id": "injection_time",   "row": 2,  "col": 2,  "value": 5.0},
+        {"map_id": "ignition_advance", "row": 0,  "col": 0,  "value": 4.0},
+        {"map_id": "ignition_advance", "row": 1,  "col": 2,  "value": 12.0},
+        {"map_id": "ignition_advance", "row": 2,  "col": 4,  "value": 18.0},
+        {"map_id": "boost_pressure",   "row": 0,  "col": 0,  "value": 1080.0},
+        {"map_id": "boost_pressure",   "row": 2,  "col": 4,  "value": 1300.0}
       ]
     }
+
   ]
 }
